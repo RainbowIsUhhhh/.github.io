@@ -1,24 +1,128 @@
 <html>
 
-    <head>
-
-        <title>https://www.utube.com/free_cool_and_great_mom_dinner_maker.php/</title>
-
-    </head>
-
     <style>
 
-        @font-face {
-
-            src: url(fonts/segoeui.ttf);
-            font-family: segoeui;
-
-        }    
+        @import url(https://fonts.googleapis.com/css?family=Varela+Round&display=swap);
 
         body {
 
-            background-image: url(pictures/incomp.png);
-            background-image: linear-gradient(to right, red, blue);
+            font-family: "Varela Round", sans-serif;
+
+            margin: 0;
+
+        }
+
+        header {
+
+            background: blueviolet;
+
+        }
+
+        header::after {
+
+            content: "";
+
+            display: table;
+
+            clear: both;
+            
+        }
+
+        header #logo {
+
+            letter-spacing: 5px;
+
+            float: left;
+
+            color: white;
+
+            position: relative;
+
+            right: -20px;
+
+            bottom: -15px;
+
+        }
+
+        header nav {
+
+            float: right;
+
+        }
+
+        header nav ul li {
+
+            display: inline-block;
+
+            margin-left: 200px;
+
+            position: relative;
+
+            left: -50px;
+
+        }
+
+        header nav ul li a {
+
+            text-decoration: none;
+
+            color: white;
+
+            text-transform: uppercase;
+
+            transition: 0.5s;
+
+        }
+
+        header nav ul li a:hover {
+
+            transition: 0.5s;
+
+            text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px gray;
+
+            letter-spacing: 1px;
+
+        }
+
+        header nav ul li a:active {
+
+            transition: 0.1s;
+
+            color: black;
+
+            font-size: 13px;
+
+        }
+
+        center #container .btn {
+
+            text-decoration: none;
+
+            background:blueviolet;
+
+            color: white;
+
+            padding: 10px;
+
+            border: solid 1px black;
+
+            transition: 0.5s;
+
+        }
+
+        center #container .btn:hover {
+
+            transition: 0.5s;
+
+            box-shadow: 1px 1px 2px gray, 0 0 25px gray, 0 0 5px gray;
+
+        }
+
+        center #container .btn:active {
+
+            transition: 0.1s;
+
+            color: red;
 
         }
 
@@ -26,20 +130,45 @@
 
     <body>
 
+        <header>
+
+            <label id="logo">Rainbow's Site</label>
+
+            <nav>
+
+                <ul>
+
+                    <li><a href="">Home</a>
+
+                    <li><a href="sites/404.html">Contact</a>
+
+                    <li><a href="sites/downloads.html">Downloads</a>
+
+                    <li><a href="sites/404.html">Social Media</a>
+
+                </ul>
+                
+            </nav>
+
+        </header>
+
         <center>
-        
-            <h1 style="color: white;
-            letter-spacing: 10px;
-            font-family: segoeui;">Hi, welcome to my page.</h1>
 
-            <p style="color: white;
-            font-family: segoeui;">If you were looking for downloads, click <a href="sites/downloads.html">me</a>.</p>
+            <div id="container">
 
-            <i><p style="color: white;
-            font-family: segoeui;">click on <a href="https://www.youtube.com/autodealer008" style="text-decoration: none;">me</a> to subscribe to my channel.</p>
+                <h1>Hello! Welcome to my page.</h1>
 
-            <p style="color: white;
-            font-family: segoeui;">click on <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration: none;">me</a> to follow my twitter.</p></i>
+                <h4>If you came here from my video, you should click the downloads button.</h4>
+
+                <h4>I mean, there's nothing here to enjoy, just a website, for archive, saving stuff, learning on how to program, etc.</h4>
+
+                <br>
+
+                <a href="sites/404.html" class="btn">Contact Me</a>
+
+                <a href="sites/downloads.html" class="btn">Downloads</a>
+
+            </div>
 
         </center>
 
